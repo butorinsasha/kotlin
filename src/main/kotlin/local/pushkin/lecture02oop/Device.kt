@@ -1,4 +1,4 @@
-package local.pushkin
+package local.pushkin.lecture02oop
 
 interface Device {
     val manufacturer: String

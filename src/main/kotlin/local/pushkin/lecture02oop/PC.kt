@@ -1,4 +1,4 @@
-package local.pushkin
+package local.pushkin.lecture02oop
 
 open class PC(
     override val manufacturer: String,

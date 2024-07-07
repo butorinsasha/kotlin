@@ -1,4 +1,4 @@
-package local.pushkin
+package local.pushkin.lecture02oop
 
 class Phone(
     override val manufacturer: String,

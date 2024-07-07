@@ -1,4 +1,4 @@
-package local.pushkin
+package local.pushkin.lecture02oop
 
 fun main() {
     val hp = PC("HP", "Pro desk")
