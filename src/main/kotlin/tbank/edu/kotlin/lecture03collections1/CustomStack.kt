@@ -1,4 +1,4 @@
-package local.pushkin.lecture03collections1
+package tbank.edu.kotlin.lecture03collections1
 
 class CustomStack<T> {
     private val elements: MutableList<T> = mutableListOf()

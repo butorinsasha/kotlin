@@ -1,4 +1,4 @@
-package local.pushkin.lecture02oop
+package tbank.edu.kotlin.lecture02oop
 
 class Notebook(
     override val manufacturer: String,

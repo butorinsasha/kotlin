@@ -1,7 +1,7 @@
-package local.pushkin.lecture03collections1
+package tbank.edu.kotlin.lecture03collections1
 
-import local.pushkin.lecture03collections1.Collections.Companion.immutableListConstruction
-import local.pushkin.lecture03collections1.Collections.Companion.mutableListConstuction
+import tbank.edu.kotlin.lecture03collections1.Collections.Companion.immutableListConstruction
+import tbank.edu.kotlin.lecture03collections1.Collections.Companion.mutableListConstuction
 import java.util.*
 
 class Collections {
