@@ -1,7 +1,8 @@
-package tbank.mentoring.homework04constructors_inheritance
+package tbank.mentoring.homework02constructorsinheritance
 
 import tbank.mentoring.homework01sealedclasses.Drivable
 import tbank.mentoring.homework01sealedclasses.Vehicle
+import tbank.mentoring.homework03queue.Queue
 
 fun main() {
     val car1 = Vehicle.Car(190, "Hatchback")

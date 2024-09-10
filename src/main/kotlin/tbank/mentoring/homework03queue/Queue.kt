@@ -1,4 +1,4 @@
-package tbank.mentoring.homework04constructors_inheritance
+package tbank.mentoring.homework03queue
 
 interface Queue<T> {
     fun enqueue(element: T): Boolean
