@@ -7,12 +7,12 @@ package tbank.mentoring.homework06functionalprogramming
 
 class KelvinThermometer(private val tempInKelvin: Double) {
 
-    fun convert(f: (Double) -> Double): Double {
-        return f(this.tempInKelvin)
+    fun convert(x: Double, f: (Double) -> Double): Double {
+        return f(x)
     }
 
     companion object Converter {
-        fun kelvinToCelsius(tempInKelvin: Double) = tempInKelvin - 273.15
-        fun kelvinToFahrenheit(tempInKelvin: Double) = (tempInKelvin - 273.15) * 9 / 5 + 32
+        val kelvinToCelsius = { tempInKelvin: Double -> tempInKelvin - 273.15 }
+        val kelvinToFahrenheit = { tempInKelvin: Double -> (tempInKelvin - 273.15) * 9 / 5 + 32 }
     }
 }
